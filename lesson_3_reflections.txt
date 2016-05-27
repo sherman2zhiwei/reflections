@@ -22,3 +22,10 @@ What is the benefit of having a copy of the last known state of the remote store
 You can work offline without access to an online copy and
 discover conflicts and solving them on a local copy first
 before pushing them to the public.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or Github, I would probably store a unified server copy
+and check with the people I am collaborating with before updating the server
+copy. Git requires more steps, but it is much more organized and changes can be 
+seen much easier.

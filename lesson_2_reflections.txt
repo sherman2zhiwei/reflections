@@ -29,3 +29,19 @@ How do the diagrams help you visualize the branch structure?
 
 They provide the locations where branches start, which 
 is useful for picturing the whole thing.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The branch connects back with the master and becomes one with it.
+It is connected at the latest master copy as changes between
+master and branch when the branch was made should be 
+transferred over as well.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic merging are that tedious work of checking every line of code
+when there are no conflicts can be resolved.
+
+Cons is that repetitive code (such as turning a repetitive function into a 
+method) may not be captured and hence creates unnecessary size.

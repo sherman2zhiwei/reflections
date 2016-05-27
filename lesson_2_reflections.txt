@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A metadata file is made of all the commits.
+It is necessary to install the .git file that makes a version control git repository.

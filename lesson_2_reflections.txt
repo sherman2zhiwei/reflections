@@ -16,3 +16,16 @@ How can you use the staging area to make sure you have one commit per logical ch
 By checking the differences between the staging area and the repo,
 you can check that each commit that will be made is 
 a logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When developing big features or different versions of the game, clumping them together makes it
+difficult to trace when developing on more than 2 features at once.
+Hence branches help categorize changes and finding bugs will be much easier.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They provide the locations where branches start, which 
+is useful for picturing the whole thing.

@@ -9,3 +9,10 @@ How is the staging area different from the working directory and the repository?
 It allows for a 'transition phase' where planning can be done before committing certain files.
 This removes the risk of accidentally committing something you did not intend to and
 creating an unnecessary one
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By checking the differences between the staging area and the repo,
+you can check that each commit that will be made is 
+a logical change.

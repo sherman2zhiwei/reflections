@@ -2,3 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A metadata file is made of all the commits.
 It is necessary to install the .git file that makes a version control git repository.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It allows for a 'transition phase' where planning can be done before committing certain files.
+This removes the risk of accidentally committing something you did not intend to and
+creating an unnecessary one

@@ -16,3 +16,9 @@ Forks are used only when cloning from github to github
 Cloning can be used from local to local or github to local
 Branches are only for a logical change big enough to 
 warrant it's own 'path'.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline without access to an online copy and
+discover conflicts and solving them on a local copy first
+before pushing them to the public.

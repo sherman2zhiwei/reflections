@@ -29,3 +29,14 @@ Without Git or Github, I would probably store a unified server copy
 and check with the people I am collaborating with before updating the server
 copy. Git requires more steps, but it is much more organized and changes can be 
 seen much easier.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A separate branch would only be used when a completely new feature or a 
+change so big that it warrants its own update path.
+The benefit of keeping everything in master is that it's easy to keep track
+of all updates and there's no need for people working on a new feature 
+to constantly push and pull all the time to keep updated. The benefit of having
+branches is that changes specific to a certain feature can be identified easily
+rather than getting clumped up with other changes.
